@@ -41,7 +41,7 @@ const UpComingWeather = ({weatherData}) => {
   const {container,image} = styles
   return (
     <SafeAreaView style={container}>
-      <Text>UpCommingWeather</Text>
+    
       <ImageBackground
         source={require("../../assets/UpComingWeather.jpg")}
         style={image}

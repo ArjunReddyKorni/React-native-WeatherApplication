@@ -28,21 +28,37 @@ const styles = StyleSheet.create({
     marginVertical: 8,
     marginHorizontal: 16,
     flexDirection: "row",
-    justifyContent: "space-around",
+    justifyContent: "space-between",
     alignItems: "center",
-    borderWidth: 5,
-    backgroundColor: "pink",
+    backgroundColor: "#ff69b4",
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  weatherIcon: {
+    fontSize: 50,
+    color: "#fff",
+  },
+  dateTextWrapper: {
+    flex: 1,
+    marginLeft: 10,
   },
   date: {
-    colour: "white",
-    fontSize: 15,
+    color: "#90ee90",
+    fontSize: 18,
+    fontWeight: "bold",
   },
-  temp: {
-    color: "white",
-    fontSize: 15,
+  time: {
+    color: "#fff",
+    fontSize: 14,
   },
-  dateTextwrapper: {
-    flexDirection: "column",
+  temperature: {
+    color: "#fff",
+    fontSize: 18,
+    fontWeight: "bold",
   },
 });
+
 export default ListItem;
